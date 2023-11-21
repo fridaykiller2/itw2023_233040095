@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan 2 - Form + Tabel</title>
+  </head>
+  <body>
+    <table border="1" cellpadding="8" cellspacing="0">
+      <tr align="center" bgcolor="grey">
+        <td colspan="3"><b>INPUT DATA MAHASISWA</b></td>
+      </tr>
+      <tr>
+        <td>Username</td>
+        <td>:</td>
+        <td>
+          <form action=""><input type="text" name="username" /></form>
+        </td>
+      </tr>
+      <tr>
+        <td>Password</td>
+        <td>:</td>
+        <td>
+          <form action=""><input type="password" /></form>
+        </td>
+      </tr>
+      <tr>
+        <td>Fullname</td>
+        <td>:</td>
+        <td>
+          <form action=""></form>
+          <input type="text" name="Fullname" />
+        </td>
+      </tr>
+      <tr>
+        <td>E-mail</td>
+        <td>:</td>
+        <td>
+          <form action=""><input type="email" /></form>
+        </td>
+      </tr>
+      <tr>
+        <td>Agama</td>
+        <td>:</td>
+        <td>
+          <select>
+            <option nama="Agama" selected>--Pilih Agama--</option>
+            <option value="Islam">Islam</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Protestan">Protestan</option>
+            <option value="Budha">Budha</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Konghucu">Konghucu</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>:</td>
+        <td>
+          <form><input type="radio" name="jeniskel" value="laki-laki" />Laki-laki <input type="radio" name="jeniskel" value="perempuan" />Perempuan</form>
+        </td>
+      </tr>
+      <tr>
+        <td>Hobi</td>
+        <td>:</td>
+        <td>
+          <form>
+            <input type="checkbox" name="hobi" value="musiik" />Musik<input type="checkbox" name="hobi" value="olahraga" />Olahraga<input type="checkbox" name="hobi" value="gaming" />Gaming<input
+              type="checkbox"
+              name="hobi"
+              value="lainnya"
+            />Lainnya
+          </form>
+        </td>
+      </tr>
+      <tr align="center">
+        <td>Profil Singkat</td>
+        <td>:</td>
+        <td>
+          <form><textarea name="komentar" cols="32" rows="5"></textarea></form>
+        </td>
+      </tr>
+      <tr align="right">
+        <td></td>
+        <td></td>
+        <td>
+          <form><input type="submit" name="input" value="input" /></form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

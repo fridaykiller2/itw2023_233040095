@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan 1</title>
+    <style>
+        .kotak{
+            width: 150px;
+            height: 150px;
+            background: rebeccapurple;
+            margin: 50px auto;
+            border-radius: 50% 50% 50% 0;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .kotak2 {
+            width: 150px;
+            height: 150px;
+            margin: 50px auto;
+           background-color: blue;  
+           /* box-shadow: <x-offset> <y-offset> <blur>
+            <color>; */
+            box-shadow: 0 0 0 10px red, 0 0  0 20px yellow, 0 0 0 30px purple, 0 0 0 40px green;
+            transition: 5s;
+            text-align: center;
+            line-height: 150px;
+        }
+
+        .kotak2:hover{
+            transform: rotate(7200deg);
+            border-radius: 50%;
+            box-shadow: 0 0 0 10px rgb(11, 59, 150), rgb(14, 104, 14), rgb(104, 221, 9), rgb(209, 184, 189);
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak">
+        <p>halo ini alif</p>
+    </div>
+
+    <div class="kotak2">
+        <p>alan walker</p>
+    </div>
+</body>
+</html>
