@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas #6</title>
+    <link rel="stylesheet" href="T6233040095.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Leckerli+One&family=Pacifico&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h4><span class="first-name">Riza Alif</span> <span class="last-name">Pasha</span></h4>
+      </div>
+
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li class="active"><a href="#">portfolio</a></li>
+        <li><a href="#">service</a></li>
+      </ul>
+
+      <div>
+        <button type="button">Contact Me</button>
+      </div>
+
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
