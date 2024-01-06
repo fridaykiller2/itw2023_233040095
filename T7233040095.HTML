@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas #7</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500&family=Open+Sans:wght@300&family=Oswald:wght@200;400&family=REM:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="T7233040095.CSS" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero"></div>
+        <div class="features feature-1">
+          <h4>Our social media</h4>
+          <div class="icons">
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+          </div>
+        </div>
+        <div class="features feature-2">
+          <h4>best destinations</h4>
+          <button><a href="">See more</a></button>
+        </div>
+        <div class="features feature-3">
+          <h1 class="tag-line">Welcome to</h1>
+          <h1 class="tag-line">The Bali Island</h1>
+        </div>
+        <div class="features feature-4">
+          <button><a href="#gallery">See gallery</a></button>
+        </div>
+        <div class="features feature-5">
+          <h4>2023 | Desaign with love</h4>
+        </div>
+      </header>
+
+      <!-- Nav -->
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Bali Island</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Destinations</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Ubud</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+            quibusdam cupiditate? Minima eaque praesentium obcaecati.
+          </p>
+          <button><a href="#">See more</a></button>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Canggu</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+            quibusdam cupiditate? Minima eaque praesentium obcaecati.
+          </p>
+          <button><a href="#">See more</a></button>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Penida Island</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+            quibusdam cupiditate? Minima eaque praesentium obcaecati.
+          </p>
+          <button><a href="#">See more</a></button>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Kuta</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+            quibusdam cupiditate? Minima eaque praesentium obcaecati.
+          </p>
+          <button><a href="#">See more</a></button>
+        </div>
+      </section>
+
+      <section class="history">
+        <div class="bg">
+          <h3>History of</h3>
+          <h3 class="tbi">The Bali Island</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae optio
+            consequatur distinctio, nobis praesentium fugiat reiciendis vel
+            vero, ut nulla ipsum tempore ullam impedit obcaecati.
+          </p>
+          <button>
+            <a href=""><i class="ri-video-line"></i> Watch video</a>
+          </button>
+        </div>
+      </section>
+
+      <section class="gallery" id="#gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/361x201?bali" alt="" />
+        <img src="https://source.unsplash.com/362x202?bali" alt="" />
+        <img src="https://source.unsplash.com/363x203?bali" alt="" />
+        <img src="https://source.unsplash.com/364x204?bali" alt="" />
+        <img src="https://source.unsplash.com/365x205?bali" alt="" />
+        <img src="https://source.unsplash.com/366x206?bali" alt="" />
+        <img src="https://source.unsplash.com/367x207?bali" alt="" />
+        <img src="https://source.unsplash.com/368x208?bali" alt="" />
+        <img src="https://source.unsplash.com/369x209?bali" alt="" />
+        <img src="https://source.unsplash.com/3610x2010?bali" alt="" />
+      </section>
+      <!-- Akhir Nav -->
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
